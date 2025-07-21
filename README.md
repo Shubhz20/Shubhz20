@@ -63,8 +63,8 @@
 
 ---
 ### 📬 Get in Touch:
-<div align="center">
-  <a href="https://github.com/Shubhz20" target="_blank">
+
+<!--   <a href="https://github.com/Shubhz20" target="_blank">
     <img src="https://img.icons8.com/ios-glyphs/60/github.png" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/harshitagrawal-/" target="_blank">
@@ -72,9 +72,11 @@
   </a>
   <a href="https://www.instagram.com/itsharshitagrawal__/" target="_blank">
     <img src="https://img.icons8.com/ios-filled/60/instagram-new.png" alt="Instagram" />
-  </a>
+  </a> -->
+[Github](https://github.com/Shubhz20)
+[Linkedin](https://www.linkedin.com/in/harshitagrawal-/)
+[Instagram](https://www.instagram.com/itsharshitagrawal__/)
 
-</div>
 
 ---
 
