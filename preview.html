@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile README Preview</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1012px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+        #content {
+            background-color: #0d1117;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #f0f6fc;
+            border-bottom: 1px solid #21262d;
+            padding-bottom: 0.3em;
+        }
+        code {
+            background-color: rgba(110, 118, 129, 0.4);
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-size: 85%;
+        }
+        pre {
+            background-color: #161b22;
+            padding: 16px;
+            border-radius: 6px;
+            overflow: auto;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #21262d;
+            margin: 24px 0;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #8b949e;
+        }
+    </style>
+</head>
+<body>
+    <div id="content" class="loading">Loading README...</div>
+    
+    <script>
+        // Fetch and render README
+        fetch('README.md')
+            .then(response => response.text())
+            .then(markdown => {
+                // Configure marked options for GitHub-style rendering
+                marked.setOptions({
+                    breaks: true,
+                    gfm: true
+                });
+                
+                // Convert markdown to HTML
+                const html = marked.parse(markdown);
+                document.getElementById('content').innerHTML = html;
+            })
+            .catch(error => {
+                document.getElementById('content').innerHTML = 
+                    '<p style="color: #f85149;">Error loading README.md: ' + error.message + '</p>';
+            });
+    </script>
+</body>
+</html>
+
