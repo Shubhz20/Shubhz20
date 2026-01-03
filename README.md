@@ -35,17 +35,13 @@ Proficient in **Python, JavaScript, HTML, CSS, TypeScript, React, Node.js, MySQL
 
 ## Connect with Me
 
-<div align="center">
-  <a href="https://github.com/Shubhz20" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/harshitagrawal-/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://www.instagram.com/itsharshitagrawal_/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-</div>
+<p align="center">
+  <a href="https://github.com/Shubhz20" target="_blank"><img src="https://skillicons.dev/icons?i=github" width="48" /></a>
+  <a href="https://www.linkedin.com/in/harshitagrawal-/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" width="48" /></a>
+  <a href="https://www.instagram.com/itsharshitagrawal_/" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" width="48" /></a>
+  <a href="https://discord.com/users/itsharshit_agrawal" target="_blank"><img src="https://skillicons.dev/icons?i=discord" width="48" /></a>
+  <a href="mailto:harshit.agrawal@adypu.edu.in" target="_blank"><img src="https://skillicons.dev/icons?i=gmail" width="48" /></a>
+</p>
 
 ---
 
